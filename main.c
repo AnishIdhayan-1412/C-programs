@@ -29,7 +29,7 @@ int main() {                                   //declaring main()
 
     struct Friends friends[n];                // creatibg n no. of objects for Friends 
 
-    for (int i = 0; i < n; i++) {              //getting inputs using fir loop
+    for (int i = 0; i < n; i++) {              //getting inputs using fir loop dynamically
         printf("Enter Friend Name: ");
         scanf("%s", friends[i].name);          //dot operator is used to access variables of objects
         printf("Enter Pet Name: ");
